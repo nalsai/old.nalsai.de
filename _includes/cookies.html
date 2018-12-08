@@ -1,0 +1,29 @@
+<footer id="cookiewarning" class="cookiewarning stylish-color text-white" style="border-top: 1px groove black;">
+    <div class="container-fluid py-3">
+        <div class="row">
+            <div class="col-md-9" style="top: 7px;">
+                Durch die Nutzung dieser Webseite stimmen Sie der Verwendung von Cookies und unserer
+                <a href="/Datenschutz">Datenschutzerklärung</a> zu.
+            </div>
+            <div class="col-md-3" style="text-align: right;">
+                <button type="button" class="btn btn-teal" onclick="CloseCookieWarning()">Verstanden!</button>
+            </div>
+        </div>
+    </div>
+</footer>
+<script>
+    if (document.cookie.indexOf('CookieWarningClosed=true') > -1) {
+        document.getElementById('cookiewarning').style.display = 'none';
+    }
+
+    function CloseCookieWarning() {
+        document.cookie = 'CookieWarningClosed=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+        document.cookie = 'CookiesAccepted=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+        document.getElementById('cookiewarning').style.display = 'none';
+    }
+
+    $('a').click(function () {
+        document.cookie = 'CookieWarningClosed=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+        document.cookie = 'CookiesAccepted=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+    });
+</script>

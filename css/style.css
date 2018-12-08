@@ -1,0 +1,99 @@
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    padding-bottom: 12rem;
+    min-height: 100%;
+    background-color: #343A40;
+    color: white;
+}
+
+.page-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #1C2331;
+}
+
+.cookiewarning {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.logo {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.logo img {
+    height: auto;
+    width: auto;
+    max-height: 40px;
+    max-width: 40px;
+    transition: all .25s ease-in-out;
+}
+
+.logo img:hover {
+    transform: scale(1.25);
+}
+
+.screencenter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -55%);
+    transform: translate(-50%, -55%);
+}
+
+.jumbotron {
+    background-color: #4B515D;
+}
+
+.footer {
+    background-color: #4B515D;
+    color: white;
+}
+
+.card {
+    background-color: #2E2E2E;
+}
+
+.card-text {
+    color: white !important;
+}
+
+a:link {
+    color: lightblue
+}
+
+.list-group-item:link {
+    color: black;
+}
+
+a:visited {
+    color: lightblue
+}
+
+a:hover {
+    color: orange
+}
+
+.img-gallery {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.gallery-img {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
