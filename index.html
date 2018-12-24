@@ -50,7 +50,7 @@ description: Die Homepage von Nils auf GitHub.
                                 if (Mo == 11 && Da == 13) {
                                     document.getElementById("QuotesEtc").innerHTML = "Ich habe Geburtstag!";
                                 }
-                                else if (Mo == 12 && Da == 24 || Mo == 12 && Da == 25 || Mo == 12 && Da == 26) {
+                                else if (Mo == 11 && Da == 24 || Mo == 11 && Da == 25 || Mo == 11 && Da == 26) {
                                     quotes = [];
                                     quotes[0] = "Frohe Weihnachten";
                                     quotes[1] = "Merry Christmas";
@@ -58,7 +58,7 @@ description: Die Homepage von Nils auf GitHub.
                                     index = Math.floor(Math.random() * quotes.length);
                                     document.getElementById("QuotesEtc").innerHTML = quotes[index];
                                 }
-                                else if (Mo == 12 && Da == 31 || Mo == 1 && Da == 1) {
+                                else if (Mo == 11 && Da == 31 || Mo == 0 && Da == 1) {
                                     document.getElementById("QuotesEtc").outerHTML = "<a href=\"index.hanabi\">Frohes neues Jahr<\/a><meta http-equiv=\"refresh\" content=\"0;URL=index.hanabi\"><script>window.location.replace(\"index.hanabi\");\\<\/script\\>";
                                 }
                                 else {
