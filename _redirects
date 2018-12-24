@@ -1,3 +1,5 @@
 # Redirect with a 301 (Permanent Redirect)
 /wetterstation/      /betterwetter/                  301
+/Wetterstation/      /betterwetter/                  301
 /bilder/             https://bilder.nalsai.de/       301
+/Bilder/             https://bilder.nalsai.de/       301
