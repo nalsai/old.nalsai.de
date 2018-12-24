@@ -37,3 +37,7 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
   - ruby-version
+
+include:
+  - _redirects
+  
