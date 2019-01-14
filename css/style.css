@@ -67,7 +67,7 @@ body {
     color: white !important;
 }
 
-a:link {
+a , a:link, a:visited {
     color: lightblue
 }
 
