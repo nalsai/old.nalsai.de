@@ -1,0 +1,16 @@
+.logo {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.logo img {
+    height: auto;
+    width: auto;
+    max-height: 40px;
+    max-width: 40px;
+    transition: all .25s ease-in-out;
+}
+
+.logo img:hover {
+    transform: scale(1.25);
+}
