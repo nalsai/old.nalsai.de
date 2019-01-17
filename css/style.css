@@ -37,7 +37,7 @@ a:link, a:visited {
     color: lightblue
 }
 
-.list-group-item:link {
+.list-group-item {
     color: black;
 }
 
