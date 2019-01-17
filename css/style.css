@@ -38,7 +38,7 @@ a:link, a:visited {
 }
 
 .list-group-item {
-    color: black;
+    color: black !important;
 }
 
 a:hover {
