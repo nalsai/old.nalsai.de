@@ -1,6 +1,0 @@
-# Redirect with a 301 (Permanent Redirect)
-/Wetterstation/             https://royal.nalsai.de/betterwetter/       301
-/betterwetter/              https://royal.nalsai.de/betterwetter/       301
-/Bilder/                    https://bilder.nalsai.de/                   301
-/Bilder/2018/Schweiz/       https://bilder.nalsai.de/2018/003_schweiz/  301
-http://nalsai.netlify.com/* http://nalsai.de/:splat                     301!

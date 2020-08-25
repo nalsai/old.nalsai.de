@@ -14,16 +14,16 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Nils' Webseite
-email: kontakt@nalsai.de
+email: contact@nalsai.de
 description: >- # this means to ignore newlines until "baseurl:"
-  Die Homepage von Nils.
+  Die alte Homepage von Nils.
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://nalsai.de" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://old.nalsai.de" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 markdown: kramdown
-theme: 
-plugins:
+#theme: 
+#plugins:
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -40,4 +40,3 @@ exclude:
 
 include:
   - _redirects
-  
